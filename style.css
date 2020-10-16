@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+h2,h3,h4,h5 {font-weight: normal;}
+
+
+a.front:visited,a.front {color: #2e5da6; text-decoration: none;}
+a.front:hover {text-decoration: underline;}
+
+.coverImage {max-height: 256px; height: 100%;}
+
+.right {width: 455px; float: right;}
+.left {width: 455px; float: left;}
+.center {width: 455px; float: center; margin-left:auto; margin-right:auto;}
+
+.main {
+  margin-top: 30px;
+  padding:10px;
+  width: 100%;
+  max-width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #a1a1a1;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding:10px
+}
+
+.navbar img {max-height: 128px; height: 80%}
+
+.bottomBar {
+  color: white;
+  background-color: #a1a1a1;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+  font-family: Arial;
+}
+
+input[type=submit] {
+  background-color: #4EACAC;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {background-color: #469999;}
